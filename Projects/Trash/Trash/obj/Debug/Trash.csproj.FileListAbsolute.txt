@@ -1,0 +1,2 @@
+c:\users\erik\documents\visual studio 2012\Projects\Trash\Trash\bin\Debug\Trash.exe.config
+C:\Users\erik\documents\visual studio 2012\Projects\Trash\Trash\obj\Debug\Trash.csprojResolveAssemblyReference.cache

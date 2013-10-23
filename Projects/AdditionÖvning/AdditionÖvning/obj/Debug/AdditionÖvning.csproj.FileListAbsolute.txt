@@ -1,0 +1,6 @@
+c:\users\erik\documents\visual studio 2012\Projects\AdditionÖvning\AdditionÖvning\bin\Debug\AdditionÖvning.exe.config
+c:\Users\erik\Documents\Visual Studio 2012\Projects\AdditionÖvning\AdditionÖvning\bin\Debug\AdditionÖvning.exe
+c:\Users\erik\Documents\Visual Studio 2012\Projects\AdditionÖvning\AdditionÖvning\bin\Debug\AdditionÖvning.pdb
+c:\Users\erik\Documents\Visual Studio 2012\Projects\AdditionÖvning\AdditionÖvning\obj\Debug\AdditionÖvning.csprojResolveAssemblyReference.cache
+c:\Users\erik\Documents\Visual Studio 2012\Projects\AdditionÖvning\AdditionÖvning\obj\Debug\AdditionÖvning.exe
+c:\Users\erik\Documents\Visual Studio 2012\Projects\AdditionÖvning\AdditionÖvning\obj\Debug\AdditionÖvning.pdb

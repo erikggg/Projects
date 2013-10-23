@@ -1,0 +1,7 @@
+D:\VSProjects\MAHAssignment1\MAHAssignment1\bin\Debug\MAHAssignment1.exe.config
+C:\Users\erik\Documents\VSProjects\MAHAssignment1\MAHAssignment1\bin\Debug\MAHAssignment1.exe.config
+C:\Users\erik\Documents\VSProjects\MAHAssignment1\MAHAssignment1\bin\Debug\MAHAssignment1.exe
+C:\Users\erik\Documents\VSProjects\MAHAssignment1\MAHAssignment1\bin\Debug\MAHAssignment1.pdb
+C:\Users\erik\Documents\VSProjects\MAHAssignment1\MAHAssignment1\obj\Debug\MAHAssignment1.csprojResolveAssemblyReference.cache
+C:\Users\erik\Documents\VSProjects\MAHAssignment1\MAHAssignment1\obj\Debug\MAHAssignment1.exe
+C:\Users\erik\Documents\VSProjects\MAHAssignment1\MAHAssignment1\obj\Debug\MAHAssignment1.pdb

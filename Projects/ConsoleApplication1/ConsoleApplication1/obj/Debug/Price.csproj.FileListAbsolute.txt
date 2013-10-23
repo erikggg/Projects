@@ -1,0 +1,9 @@
+D:\VSProjects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Price.exe.config
+D:\VSProjects\ConsoleApplication1\ConsoleApplication1\obj\Debug\Price.csprojResolveAssemblyReference.cache
+D:\VSProjects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Price.exe
+D:\VSProjects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Price.pdb
+D:\VSProjects\ConsoleApplication1\ConsoleApplication1\obj\Debug\Price.exe
+D:\VSProjects\ConsoleApplication1\ConsoleApplication1\obj\Debug\Price.pdb
+C:\Users\erik\Documents\VSProjects\ConsoleApplication1\ConsoleApplication1\bin\Debug\Price.exe.config
+C:\Users\erik\Documents\VSProjects\ConsoleApplication1\ConsoleApplication1\obj\Debug\Price.exe
+C:\Users\erik\Documents\VSProjects\ConsoleApplication1\ConsoleApplication1\obj\Debug\Price.pdb
