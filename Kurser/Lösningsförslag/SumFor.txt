@@ -1,0 +1,29 @@
+﻿      
+	  //The method may be declared as public
+        private int SumUpNumbersFor()
+        { 
+            int end = 5000;
+            int sum = 0;
+
+            for (int index = 0; index < end; index++)
+                sum += index;
+
+            return sum;
+        }
+		//........................................................
+        //The method may be declared as public
+        private int SumUpNumbersWhile()
+        {
+            int end = 5000;
+            int sum = 0;
+            int index = 0;
+
+            while (index < end)
+            {
+                sum += index;
+                index++;
+            }
+                
+            return sum;
+
+        }
