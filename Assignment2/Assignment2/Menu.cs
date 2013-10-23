@@ -12,7 +12,7 @@ namespace MAHAssignment2
         public void Start()
         {
             bool done = false;
-            Input choice = new Input();
+            Input mainchoice = new Input();
             int menuchoice;
 
             while (!done)
@@ -24,7 +24,7 @@ namespace MAHAssignment2
                 Console.WriteLine("Currency Converter with Do While loop    :3");
                 Console.WriteLine("Work Schedule                            :4");
                 Console.WriteLine("Exit the Program                         :0");
-                menuchoice = choice.input();
+                menuchoice = mainchoice.input("Please input your menu choice", 4);
 
                 switch (menuchoice)
                 {
@@ -33,7 +33,22 @@ namespace MAHAssignment2
                         break;
                     
                     case 1:
-                        WholeNumbersForAdd
+
+                        WholeNumbersForAdd choice1 = new WholeNumbersForAdd();
+                        choice1.Start();
+                        break;
+                    //case 2:
+                    //    FloatingNumberWhileAdd choice2 = new FloatingNumberWhileAdd();
+                    //    choice2.Start();
+                    //    break;
+
+                    default:
+                        Console.WriteLine("Chose a number from the menu (1-4)");
+                        break;
+                    //case 2:
+                    //    FloatingNumberWhileAdd choice2 = new FloatingNumberWhileAdd();
+                    //    choice2.Start(2);
+                    //    break;
                 }
 
                 //WholeNumbersWithfor()

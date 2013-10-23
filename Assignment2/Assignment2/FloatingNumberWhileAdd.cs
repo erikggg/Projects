@@ -8,5 +8,10 @@ namespace MAHAssignment2
 {
     class FloatingNumberWhileAdd
     {
+        public void Start()
+        { 
+
+        }
+
     }
 }
