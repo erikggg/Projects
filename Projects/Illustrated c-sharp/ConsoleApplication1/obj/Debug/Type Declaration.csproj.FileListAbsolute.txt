@@ -1,0 +1,6 @@
+C:\Users\erik\documents\visual studio 2012\Projects\Illustrated c-sharp\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\erik\documents\visual studio 2012\Projects\Illustrated c-sharp\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\erik\documents\visual studio 2012\Projects\Illustrated c-sharp\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\erik\documents\visual studio 2012\Projects\Illustrated c-sharp\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\erik\documents\visual studio 2012\Projects\Illustrated c-sharp\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\erik\documents\visual studio 2012\Projects\Illustrated c-sharp\ConsoleApplication1\obj\Debug\Type Declaration.csprojResolveAssemblyReference.cache

@@ -1,0 +1,1 @@
+c:\users\erik\documents\visual studio 2012\Projects\C-sharpStation\C-sharpStation\bin\Debug\C-sharpStation.exe.config

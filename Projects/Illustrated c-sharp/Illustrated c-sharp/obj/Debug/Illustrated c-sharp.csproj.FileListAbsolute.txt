@@ -1,0 +1,6 @@
+c:\users\erik\documents\visual studio 2012\Projects\Illustrated c-sharp\Illustrated c-sharp\bin\Debug\Illustrated c-sharp.exe.config
+c:\users\erik\documents\visual studio 2012\Projects\Illustrated c-sharp\Illustrated c-sharp\obj\Debug\Illustrated c-sharp.csprojResolveAssemblyReference.cache
+c:\users\erik\documents\visual studio 2012\Projects\Illustrated c-sharp\Illustrated c-sharp\bin\Debug\Illustrated c-sharp.exe
+c:\users\erik\documents\visual studio 2012\Projects\Illustrated c-sharp\Illustrated c-sharp\bin\Debug\Illustrated c-sharp.pdb
+c:\users\erik\documents\visual studio 2012\Projects\Illustrated c-sharp\Illustrated c-sharp\obj\Debug\Illustrated c-sharp.exe
+c:\users\erik\documents\visual studio 2012\Projects\Illustrated c-sharp\Illustrated c-sharp\obj\Debug\Illustrated c-sharp.pdb

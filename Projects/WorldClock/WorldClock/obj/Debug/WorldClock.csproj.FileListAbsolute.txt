@@ -1,0 +1,12 @@
+D:\VSProjects\WorldClock\WorldClock\bin\Debug\WorldClock.exe.config
+D:\VSProjects\WorldClock\WorldClock\bin\Debug\WorldClock.exe
+D:\VSProjects\WorldClock\WorldClock\bin\Debug\WorldClock.pdb
+D:\VSProjects\WorldClock\WorldClock\obj\Debug\WorldClock.csprojResolveAssemblyReference.cache
+D:\VSProjects\WorldClock\WorldClock\obj\Debug\WorldClock.exe
+D:\VSProjects\WorldClock\WorldClock\obj\Debug\WorldClock.pdb
+C:\Users\erik\Documents\VSProjects\WorldClock\WorldClock\bin\Debug\WorldClock.exe.config
+C:\Users\erik\Documents\VSProjects\WorldClock\WorldClock\obj\Debug\WorldClock.exe
+C:\Users\erik\Documents\VSProjects\WorldClock\WorldClock\obj\Debug\WorldClock.pdb
+C:\Users\erik\Documents\VSProjects\WorldClock\WorldClock\bin\Debug\WorldClock.exe
+C:\Users\erik\Documents\VSProjects\WorldClock\WorldClock\bin\Debug\WorldClock.pdb
+C:\Users\erik\Documents\VSProjects\WorldClock\WorldClock\obj\Debug\WorldClock.csprojResolveAssemblyReference.cache

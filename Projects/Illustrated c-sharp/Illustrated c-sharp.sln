@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Illustrated c-sharp", "Illustrated c-sharp\Illustrated c-sharp.csproj", "{605B2AFB-5D72-48AB-A8C6-849459898DAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Type Declaration", "ConsoleApplication1\Type Declaration.csproj", "{53BFE3A2-ED35-4853-B5C1-4EF37FAA9E02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9131548E-1CC2-4A28-A4C9-9BC0A992B857}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{605B2AFB-5D72-48AB-A8C6-849459898DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{605B2AFB-5D72-48AB-A8C6-849459898DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{605B2AFB-5D72-48AB-A8C6-849459898DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{605B2AFB-5D72-48AB-A8C6-849459898DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53BFE3A2-ED35-4853-B5C1-4EF37FAA9E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53BFE3A2-ED35-4853-B5C1-4EF37FAA9E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53BFE3A2-ED35-4853-B5C1-4EF37FAA9E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53BFE3A2-ED35-4853-B5C1-4EF37FAA9E02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
