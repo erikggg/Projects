@@ -8,11 +8,10 @@ namespace MAHAssignment2
 {
     class Input
     {   
-        public int input(string text, int? maxInput)
+        public static int ReadIntegerConsole(string text, int? maxInput)
         {
             Console.Write("{0} ", text);
             string userValue = Console.ReadLine();
-            //if (int.TryParse(userValue, out number))
             int returnvalue;
 
             if (int.TryParse(userValue, out returnvalue) && ((returnvalue <= maxInput) || (!maxInput.HasValue)))
@@ -33,7 +32,7 @@ namespace MAHAssignment2
 
             
         }
-        public int input()
+        public static int ReadIntegerConsole()
         {
             string userValue = Console.ReadLine();
             int returnvalue;
@@ -53,5 +52,28 @@ namespace MAHAssignment2
                     return returnvalue;
                 }
            }
+        public static double ReadDoubleConsole()
+        {
+            string userValue = Console.ReadLine();
+         
+            double returnvalue;
+
+            if (double.TryParse(userValue, out returnvalue))
+            {
+                return returnvalue;
+            }
+            else
+            {
+
+                while (!double.TryParse(userValue, out returnvalue))
+                {
+                    Console.Write("Please input a floating point number: ");
+                    userValue = Console.ReadLine();
+                }
+                return returnvalue;
+
+            }
+
+        }
     }
 }

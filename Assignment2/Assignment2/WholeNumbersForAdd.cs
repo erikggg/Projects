@@ -27,18 +27,19 @@ namespace MAHAssignment2
                 summation += ints[i];
             }
             
-            Console.Write("Total value of chosen ints:  {0}", summation);
+            Console.Write("Total value of chosen ints:  {0}\n", summation);
 
         }
         private void WriteProgramInfo()
         {
+            Console.WriteLine("*******************************************");
             Console.WriteLine("This menu choice will sum a number of ints");
+            Console.WriteLine("*******************************************");
             
         }
         private void ReadInput()
         {
-            Input numbers = new Input();
-            numberOfInputs = numbers.input("Number of values to sum?  ", null);
+            numberOfInputs = Input.ReadIntegerConsole("Number of values to sum?  ", null);
             //Console.Write(numberOfInputs);
 
             ints = new int[numberOfInputs];
@@ -51,7 +52,7 @@ namespace MAHAssignment2
                 j = i+1;
 
                 Console.Write("Please input Value number {0}: ", j);
-                ints[i] = numbers.input();
+                ints[i] = Input.ReadIntegerConsole();
                 //Console.Write(ints[i]);
 
             }
