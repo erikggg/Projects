@@ -22,6 +22,7 @@ namespace MAHAssignment2
                 Console.WriteLine("Floating Point Numbers with While        :2");
                 Console.WriteLine("Currency Converter with Do While loop    :3");
                 Console.WriteLine("Work Schedule                            :4");
+                Console.WriteLine("Celsius to Fahrenheit                    :5");
                 Console.WriteLine("Exit the Program                         :0");
                 Console.WriteLine("*******************************************");
                 menuchoice = Input.ReadIntegerConsole("Please input your menu choice", null);
@@ -51,7 +52,10 @@ namespace MAHAssignment2
                         WorkingSchedule choice4 = new WorkingSchedule();
                         choice4.Start();
                         break;
-
+                    case 5:
+                        CelciusToFahrenheit choice5 = new CelciusToFahrenheit();
+                        choice5.Start();
+                        break;
                     default:
                         Console.WriteLine("Your choice: {0} has not yet been implemented. Please select another menu option", menuchoice);
                         break;

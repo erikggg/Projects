@@ -12,22 +12,24 @@ namespace MAHAssignment2
         public int choice;
         public void Start()
         {
-            ListChoices();
+
             while (!done)
             {
-
-                ShowSchedule();
+                ListChoices();
+                DisplaySchedule();
             }
         }
         public void ListChoices()
         {
-                Console.WriteLine("1: Show a list of weekends to work");
-                Console.WriteLine("2: Show a list of nights to work");
-                Console.WriteLine("0: Return to main menu");
+            Console.WriteLine("");
+            Console.WriteLine("1: Show a list of weekends to work");
+            Console.WriteLine("2: Show a list of nights to work");
+            Console.WriteLine("0: Return to main menu");
 
-                choice = Input.ReadIntegerConsole();
+            choice = Input.ReadIntegerConsole();
+            Console.WriteLine("Your choice: {0}", choice);
         }
-        private void ShowSchedule()
+        private void DisplaySchedule()
         {
             switch (choice)
             {
@@ -35,38 +37,39 @@ namespace MAHAssignment2
                     done = true;
                     break;
                 case 1:
-                    ShowWeekendSchedule();
+                    //Weekends
+                    ShowSchedule(6, 3, 52);
                     break;
 
                 case 2:
-                    ShowNightsSchedule();
+                    //Nights
+                    ShowSchedule(1, 5, 52);
                     break;
-                    
+
                 default:
                     Console.WriteLine("Invalid menu option");
                     break;
             }
-        } 
-        private void ShowWeekendSchedule()
-        {
-            int week;
-            int maxweek = 52;
-            for (int i = 0; i < maxweek; i += 3)
-            {
-                week = i;
-                if (i == 0)
-                {
-                    week = 6;
-                    i = week;
-                }
-                Console.WriteLine("Week {0}", week);
-            }
-            done = true;
-            return;
         }
-        private void ShowNightsSchedule()
+        private void ShowSchedule(int startweek, int interval, int maxweek)
         {
+            int week = startweek;
+            int i = 0;
 
+            while (week < maxweek)
+            {
+                
+                if (i % 3 == 0)
+                {
+                    Console.Write("\n");
+                }
+
+                Console.Write("{0, -3} {1,3}\t", "Week", week.ToString());
+
+                week += interval;
+                i++;
+            }
+            return;
         }
     }
 
