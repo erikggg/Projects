@@ -19,6 +19,7 @@ namespace MAHAssignment1
         private double VATRateUsed;
         private double totalVAT;
         private double totalNetValue;
+        private double totalValue;
 
 
         public void Start()
@@ -80,8 +81,9 @@ namespace MAHAssignment1
         private void CalculateValues()
         {
             
-
+            
             totalNetValue = count * unitPrice;
+
             if (foodItem == true)
             {
                 
@@ -92,10 +94,11 @@ namespace MAHAssignment1
                 VATRateUsed = otherVATRate;
             }
             totalVAT = totalNetValue * (VATRateUsed / 100);
+            totalValue = totalVAT + totalNetValue;
         }
         private void PrintReciept()
         {
-            Console.WriteLine("***Total amount to pay: {0}***", totalNetValue);
+            Console.WriteLine("***Total amount to pay: {0}***", totalValue);
             Console.WriteLine("***Including VAT at {0}%: {1} ***", VATRateUsed, totalVAT);
             Console.WriteLine("***This program has been developed by Erik Grahn***");
 
