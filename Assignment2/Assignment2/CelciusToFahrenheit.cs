@@ -10,16 +10,24 @@ namespace MAHAssignment2
     {
         //double toCelsius;
         double toFahrenheit;
+        int max;
+        int min; 
 
         public void Start()
         {
             DisplayInfo();
-            //only showing integers divisible by 4
-            int max = Input.ReadIntegerConsole("Please input the max celsius value", null);
-            int min = Input.ReadIntegerConsole("Please input the minimum celsius value", null);
+            GetInput();
+            //saving old height to temporarily set window hight to display a large amount of values.
             int oldHeight = Console.WindowHeight;
             DisplayStuff(max, min);
             Console.SetWindowSize(Console.WindowWidth, oldHeight);
+        }
+        private void GetInput()
+        {
+            //only showing integers divisible by 4
+            max = Input.ReadIntegerConsole("Please input the max celsius value", null);
+            min = Input.ReadIntegerConsole("Please input the minimum celsius value", null);
+            
         }
         private void DisplayInfo()
         {
@@ -31,7 +39,7 @@ namespace MAHAssignment2
         {
             //for larger amounts, set window size to amount of lines displayed + 6
             
-            if ((maxCelsius/4)+6> Console.WindowHeight && (maxCelsius/4)+4 <= 58)
+            if ((maxCelsius/4)+6 > Console.WindowHeight && (maxCelsius/4)+4 <= 58)
             {
                 Console.SetWindowSize(Console.WindowWidth, (maxCelsius/4)+6);
             }
