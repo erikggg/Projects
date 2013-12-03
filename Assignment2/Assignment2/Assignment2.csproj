@@ -43,7 +43,6 @@
   <ItemGroup>
     <Compile Include="CelciusToFahrenheit.cs" />
     <Compile Include="CurrencyConverter.cs" />
-    <Compile Include="ExchangeDoWhile.cs" />
     <Compile Include="FloatingNumberWhileAdd.cs" />
     <Compile Include="Input.cs" />
     <Compile Include="Menu.cs" />

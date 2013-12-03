@@ -75,5 +75,26 @@ namespace MAHAssignment2
             }
 
         }
+        public static decimal ReadDecimalConsole()
+        {
+            string userValue = Console.ReadLine();
+            decimal returnValue;
+
+
+            if (decimal.TryParse(userValue, out returnValue))
+            {
+                return returnValue;
+            }
+            else
+            {
+                while (!decimal.TryParse(userValue, out returnValue))
+                {
+                    Console.Write("Please input a decimal number: ");
+                    userValue = Console.ReadLine();
+                }
+                return returnValue;
+            }
+
+        }
     }
 }

@@ -9,9 +9,11 @@ namespace MAHAssignment2
     class CelciusToFahrenheit
     {
         //double toCelsius;
+        //displaying Fahrenheit as a double since conversion will result in fractions of a degree.
         double toFahrenheit;
-        int max;
-        int min; 
+        //choosing int for celsius values
+        int maxCelsius;
+        int minCelsius; 
 
         public void Start()
         {
@@ -19,14 +21,16 @@ namespace MAHAssignment2
             GetInput();
             //saving old height to temporarily set window hight to display a large amount of values.
             int oldHeight = Console.WindowHeight;
-            DisplayStuff(max, min);
+            //calling display method with min and max values.
+            DisplayStuff(maxCelsius, minCelsius);
+            //reset window size to old value
             Console.SetWindowSize(Console.WindowWidth, oldHeight);
         }
         private void GetInput()
         {
-            //only showing integers divisible by 4
-            max = Input.ReadIntegerConsole("Please input the max celsius value", null);
-            min = Input.ReadIntegerConsole("Please input the minimum celsius value", null);
+            //Get celsius interval to display, using min and max values
+            maxCelsius = Input.ReadIntegerConsole("Please input the max celsius value", null);
+            minCelsius = Input.ReadIntegerConsole("Please input the minimum celsius value", null);
             
         }
         private void DisplayInfo()
@@ -40,12 +44,14 @@ namespace MAHAssignment2
         {
             //If rows + 6 is larger than current window height and smaller 
             //than max window height set window size to 
-            //amount of lines displayed + 6 to display chosen values in same console window
+            //amount of lines displayed + 6 to display chosen values in same console window.
             //values divided by 4 since we only print every 4th value.
             if ((maxCelsius/4)+6 > Console.WindowHeight && (maxCelsius/4)+6 <= Console.LargestWindowHeight)
             {
+                //setting window size if result set is larger than window hight but smaller than max window height.
                 Console.SetWindowSize(Console.WindowWidth, (maxCelsius/4)+6);
             }            
+            //print values between given men and max
             for (int i = minCelsius; i <= maxCelsius; i++)
             {
                 
@@ -58,7 +64,7 @@ namespace MAHAssignment2
                     //writing ToString as a float with 2 decimals
                 Console.WriteLine("{0, 25} F = {1,8} C", toFahrenheit.ToString("F2"), i.ToString("F2"));
             }
-            //waiting for command before exiting conversion
+            //waiting for command before exiting conversion and returning to menu..
             Console.WriteLine("Press Enter to continue");
             Console.ReadLine();
         }

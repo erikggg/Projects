@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*This class will add */
 namespace MAHAssignment2
 {
     class FloatingNumberWhileAdd
@@ -41,7 +42,7 @@ namespace MAHAssignment2
                 if (result == 0)
                 {
                     done = true;
-                    break;
+                    //break;
                 }
                 else 
                     total += result;
