@@ -46,24 +46,23 @@ namespace MAHAssignment2
             //than max window height set window size to 
             //amount of lines displayed + 6 to display chosen values in same console window.
             //values divided by 4 since we only print every 4th value.
-            if ((maxCelsius/4)+6 > Console.WindowHeight && (maxCelsius/4)+6 <= Console.LargestWindowHeight)
+            //for larger amounts, set window size to amount of lines displayed + 6
+            if ((maxCelsius / 4) + 6 > Console.WindowHeight && (maxCelsius / 4) + 6 <= Console.LargestWindowHeight)
             {
                 //setting window size if result set is larger than window hight but smaller than max window height.
-                Console.SetWindowSize(Console.WindowWidth, (maxCelsius/4)+6);
-            }            
-            //print values between given men and max
+                Console.SetWindowSize(Console.WindowWidth, (maxCelsius/4)+6);         
+            }
+            //print values between given min and max
             for (int i = minCelsius; i <= maxCelsius; i++)
             {
                 
                 //toCelsius = (5.0 / 9.0 * (valueToConvert - 32));
-                //Storing Fahrenheit value in variable to print.
                 toFahrenheit = (9.0 / 5.0 * i + 32.0);
-                //only writing every 4 calculations to show in the window
+                //only writing every 4 calculations to allow all calculations to show in the window
                 if (i % 4 == 0)
-                    //shifting columns slightly to line up nicer
-                    //writing ToString as a float with 2 decimals
                 Console.WriteLine("{0, 25} F = {1,8} C", toFahrenheit.ToString("F2"), i.ToString("F2"));
             }
+
             //waiting for command before exiting conversion and returning to menu..
             Console.WriteLine("Press Enter to continue");
             Console.ReadLine();
